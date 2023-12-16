@@ -85,7 +85,9 @@ const Formvalidate = () => {
         {!confirmPasswordValid && <p>Password do not match</p>}
       </div>
 
-      <button onClick={handleSubmit}>SignUp</button>
+      <button onClick={handleSubmit} className="button">
+        SignUp
+      </button>
     </div>
   );
 };
